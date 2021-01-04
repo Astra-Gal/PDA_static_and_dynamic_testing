@@ -30,9 +30,10 @@ class CardGame:
    
 # typo - dif should be def, and there should be a comma between card1 and card2
   dif highest_card(self, card1 card2):
+#line 34 should be indented
   if card1.value > card2.value:
     return card
-    # line 34 should return card1
+    # line 35 should return card1
   else:
     return card2
   
@@ -40,11 +41,11 @@ class CardGame:
 
 def cards_total(self, cards):
   total
-  #line 42 should set the variable total to zero to start with
+  #line 43 should set the variable total to zero to start with
   for card in cards:
     total += card.value
     return "You have a total of" + total
-# string formatted incorrectly. Line 46 should be:
+# string formatted incorrectly. Line 47 should be:
 # return f"You have a total of {total}"
   
 ```
