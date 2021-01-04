@@ -47,5 +47,7 @@ def cards_total(self, cards):
     return "You have a total of" + total
 # string formatted incorrectly. Line 47 should be:
 # return f"You have a total of {total}"
+
+# This also has an indentation error - the method should all be indented one space
   
 ```
