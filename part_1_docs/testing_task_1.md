@@ -14,19 +14,25 @@ Only comment on errors that would stop the tests running.
 
 ```python
 
+#needs to import Card class
+
 class CardGame:
+#needs a def __init__ passing in self and any other parameters needed
 
 
   def check_for_ace(self, card):
     if card.value = 1:
+    # in line 24, it should be == not =
       return True
     else
+    # line 27 needs a colon after the else
       return False
    
-
+# typo - dif should be def
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
     return card
+    # line 34 should return card1
   else:
     return card2
   
@@ -34,8 +40,11 @@ class CardGame:
 
 def cards_total(self, cards):
   total
+  #line 42 should set the variable total to zero to start with
   for card in cards:
     total += card.value
     return "You have a total of" + total
+# string formatted incorrectly. Line 46 should be:
+# return f"You have a total of {total}"
   
 ```
