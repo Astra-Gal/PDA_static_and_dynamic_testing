@@ -28,7 +28,7 @@ class CardGame:
     # line 27 needs a colon after the else
       return False
    
-# typo - dif should be def
+# typo - dif should be def, and there should be a comma between card1 and card2
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
     return card
